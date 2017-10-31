@@ -1,0 +1,14 @@
+Rails:
+  Enabled: true
+
+Metrics/LineLength:
+  Max: 120
+
+# Don't check for class documentation on controllers
+# as recommended by bbatsov https://github.com/bbatsov/rubocop/issues/691#issuecomment-30923335
+Documentation:
+  Exclude:
+    - 'app/controllers/**/*'
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
