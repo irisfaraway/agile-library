@@ -7,7 +7,7 @@ services:
   - postgresql
 env:
   global:
-    - CC_TEST_REPORTER_ID=787a2f89b15c637323c7340d65ec17e898ac44480706b4b4122ea040c2a88f1d
+    - CC_TEST_REPORTER_ID=e486b5bdc202369e6b85941e8b49ad59e95d54330902f9596ff5ed01c62a7b16
 before_script:
   - psql -c 'create database agile_library_test;' -U postgres
   - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
