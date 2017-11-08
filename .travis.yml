@@ -3,3 +3,7 @@ rvm:
   - 2.4.2
 script:
   - bundle exec rspec
+services:
+  - postgresql
+before_script:
+  - psql -c 'create database agile_library_test;' -U postgres
