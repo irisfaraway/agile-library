@@ -1,3 +1,6 @@
+require 'simplecov'
+SimpleCov.start 'rails'
+
 # Test helpers for gems
 require 'aasm/rspec'
 
